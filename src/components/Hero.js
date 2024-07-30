@@ -4,14 +4,14 @@ import rowdyPic from "../images/rowdy-pic-1.png";
 const Hero = () => {
   return (
     <div className='flex flex-col h-screen w-full items-center justify-between'>
-      <div className='flex text-white/80 text-[8rem]'>
-        <h1 className='px-4'>R</h1>
-        <h1 className='px-4'>O</h1>
-        <h1 className='px-4'>W</h1>
-        <h1 className='px-4'>D</h1>
-        <h1 className='px-4'>Y</h1>
+      <div className='flex text-white/80 text-[8rem] font-carnivale'>
+        <h1 className='px-2 md:px-4 lg:px-6 mx-auto'>R</h1>
+        <h1 className='px-2 md:px-4 lg:px-6 mx-auto'>O</h1>
+        <h1 className='px-2 md:px-4 lg:px-6 mx-auto'>W</h1>
+        <h1 className='px-2 md:px-4 lg:px-6 mx-auto'>D</h1>
+        <h1 className='px-2 md:px-4 lg:px-6 mx-auto'>Y</h1>
       </div>
-      <div className='flex text-white/80'>
+      <div className='flex text-white/75 font-bronco font-bold'>
         <h1 className='text-3xl px-4'>PASADENA, TX</h1>
         <h1 className='text-3xl px-6'>SUPER GROUP</h1>
       </div>

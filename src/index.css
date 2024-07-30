@@ -5,3 +5,13 @@
 body {
   background-color: black;
 }
+
+@font-face {
+  font-family: "BroncoPersonalUse";
+  src: url(./Fonts/BroncoPersonalUse.ttf);
+}
+
+@font-face {
+  font-family: "CarnivaleeFreakshow";
+  src: url(./Fonts/CarnivaleeFreakshow-DLrm.ttf);
+}
