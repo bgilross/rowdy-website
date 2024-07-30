@@ -15,8 +15,12 @@ const Hero = () => {
         <h1 className='text-3xl px-4'>PASADENA, TX</h1>
         <h1 className='text-3xl px-6'>SUPER GROUP</h1>
       </div>
-      <div className='pt-8 flex'>
-        <img src={rowdyPic} alt='Rowdy Band' height={600} width={600}></img>
+      <div className='pt-8 flex mb-8'>
+        <img
+          src={rowdyPic}
+          alt='Rowdy Band'
+          className='max-h-screen max-w-full sm:w-[600px] sm:h-[600px]'
+        ></img>
       </div>
     </div>
   );
