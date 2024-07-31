@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+/* body {
   background-color: black;
-}
+} */
 
 @font-face {
-  font-family: "BroncoPersonalUse";
+  font-family: 'BroncoPersonalUse';
   src: url(./Fonts/BroncoPersonalUse.ttf);
 }
 
 @font-face {
-  font-family: "CarnivaleeFreakshow";
+  font-family: 'CarnivaleeFreakshow';
   src: url(./Fonts/CarnivaleeFreakshow-DLrm.ttf);
 }
