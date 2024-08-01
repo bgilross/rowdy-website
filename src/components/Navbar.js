@@ -67,10 +67,10 @@ const Navbar = () => {
             <span className='pl-4'>Contact</span>
           </a>
           <div className='md:hidden'>
-            <img src={facebook} alt='facebook' className='w-20 h-20' />
-            <img src={instagram} alt='facebook' className='w-24 h-24' />
-            <img src={youtube} alt='facebook' className='w-20 h-20' />
-            <img src={spotify} alt='facebook' className='w-24 h-24' />
+            <img src={facebook} alt='facebook' className='icons my-2' />
+            <img src={instagram} alt='facebook' className='icons my-2' />
+            <img src={youtube} alt='facebook' className='icons my-2' />
+            <img src={spotify} alt='facebook' className='icons my-2' />
           </div>
         </div>
       ) : (
