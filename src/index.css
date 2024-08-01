@@ -29,4 +29,12 @@
     text-white bg-gray-900 text-xs font-bold transition-all duration-100
     scale-0 origin-left;
   }
+
+  .rowdy {
+    @apply px-2 md:px-4 lg:px-6 mx-auto;
+  }
+
+  .icons {
+    @apply w-24 h-24 mx-2 md:mx-4 hover:scale-125 ease-in duration-200 cursor-pointer;
+  }
 }

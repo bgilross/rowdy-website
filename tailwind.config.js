@@ -9,7 +9,7 @@ module.exports = {
         bronco: ["BroncoPersonalUse", "serif"],
       },
       backgroundImage: {
-        background: "url('images/rowdy-pic-1.png')",
+        background: "url('images/rowdy-pic-cropped1.png')",
       },
     },
   },

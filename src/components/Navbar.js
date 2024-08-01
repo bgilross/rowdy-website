@@ -25,11 +25,11 @@ const Navbar = () => {
         className='absolute top-4 right-4 z-[99] text-white'
       />
       {nav ? (
-        <div className='fixed w-full h-screen bg-black/80 flex flex-col justify-center items-center z-20'>
+        <div className='fixed w-full h-screen bg-black/80 flex flex-col justify-center items-center z-20 text-white font-bronco text-xl'>
           <a
             onClick={handleNav}
             href='#main'
-            className='hidden w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] md:flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            className='hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineHome size={20} />
             <span className='pl-4'>Home</span>
@@ -37,7 +37,7 @@ const Navbar = () => {
           <a
             onClick={handleNav}
             href='#work'
-            className='hidden w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] md:flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            className='hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <GrProjects size={20} />
             <span className='pl-4'>Work</span>
@@ -45,7 +45,7 @@ const Navbar = () => {
           <a
             onClick={handleNav}
             href='#projects'
-            className='hidden w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] md:flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            className='hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineProject size={20} />
             <span className='pl-4'>Projects</span>
@@ -53,7 +53,7 @@ const Navbar = () => {
           <a
             onClick={handleNav}
             href='#main'
-            className='hidden w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] md:flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            className='hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <BsPerson size={20} />
             <span className='pl-4'>Resume</span>
@@ -61,7 +61,7 @@ const Navbar = () => {
           <a
             onClick={handleNav}
             href='#contact'
-            className='hidden w-[70%] md:w-[60%] lg:w-[50%] xl:w-[40%] md:flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+            className='hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
             <AiOutlineMail size={20} />
             <span className='pl-4'>Contact</span>
