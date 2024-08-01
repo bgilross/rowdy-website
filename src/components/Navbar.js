@@ -8,7 +8,7 @@ import {
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
 
-const Sidenav = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav);
@@ -70,4 +70,4 @@ const Sidenav = () => {
   );
 };
 
-export default Sidenav;
+export default Navbar;

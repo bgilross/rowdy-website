@@ -1,11 +1,11 @@
 import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
-import Sidenav from "./components/Sidenav";
 
 function App() {
   return (
     <div className='App'>
-      <Sidenav />
+      <Navbar />
       <Sidebar />
       <Hero />
     </div>
