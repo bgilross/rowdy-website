@@ -1,12 +1,5 @@
 import { useState } from "react";
-import {
-  AiOutlineHome,
-  AiOutlineMenu,
-  AiOutlineProject,
-  AiOutlineMail,
-} from "react-icons/ai";
-import { BsPerson } from "react-icons/bs";
-import { GrProjects } from "react-icons/gr";
+import { AiOutlineMenu } from "react-icons/ai";
 import facebook from "../images/facebook2.png";
 import instagram from "../images/instagram2.png";
 import youtube from "../images/youtube2.png";
@@ -31,40 +24,35 @@ const Navbar = () => {
             href='#main'
             className='hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
-            <AiOutlineHome size={20} />
-            <span className='pl-4'>Home</span>
+            <span>Landing Page</span>
           </a>
           <a
             onClick={handleNav}
-            href='#work'
+            href='#bio'
             className='hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
-            <GrProjects size={20} />
-            <span className='pl-4'>Work</span>
+            <span>BIO PAGES</span>
           </a>
           <a
             onClick={handleNav}
-            href='#projects'
+            href='#videos'
             className='hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
-            <AiOutlineProject size={20} />
-            <span className='pl-4'>Projects</span>
+            <span>Videos</span>
           </a>
           <a
             onClick={handleNav}
-            href='#main'
+            href='#streaming'
             className='hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
-            <BsPerson size={20} />
-            <span className='pl-4'>Resume</span>
+            <span>Resume</span>
           </a>
           <a
             onClick={handleNav}
-            href='#contact'
+            href='#extra'
             className='hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
           >
-            <AiOutlineMail size={20} />
-            <span className='pl-4'>Contact</span>
+            <span>Lil Extra Sumthin</span>
           </a>
           <div className='md:hidden'>
             <img src={facebook} alt='facebook' className='icons my-2' />
