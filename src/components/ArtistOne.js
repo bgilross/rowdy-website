@@ -1,7 +1,7 @@
 import React from "react";
 
 const ArtistOne = () => {
-  return <div>ArtistOne</div>;
+  return <div className='artist'>ArtistOne</div>;
 };
 
 export default ArtistOne;

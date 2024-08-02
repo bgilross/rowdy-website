@@ -37,4 +37,8 @@ body {
   .icons {
     @apply w-24 h-24 mx-2 md:mx-4 md:hover:scale-125 hover:scale-110 ease-in duration-200 cursor-pointer;
   }
+
+  .artist {
+    @apply flex h-screen w-full bg-secondary bg-contain bg-center bg-no-repeat items-center justify-center;
+  }
 }

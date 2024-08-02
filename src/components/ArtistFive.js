@@ -1,7 +1,7 @@
 import React from "react";
 
 const ArtistFive = () => {
-  return <div>ArtistFive</div>;
+  return <div className='artist'>ArtistFive</div>;
 };
 
 export default ArtistFive;
