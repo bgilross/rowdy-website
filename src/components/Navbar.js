@@ -8,6 +8,9 @@ const Navbar = () => {
     setNav(!nav)
   }
 
+  const navBarLinkStyle =
+    'hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'
+
   return (
     <div className="hidden md:block">
       <AiOutlineMenu
@@ -20,7 +23,7 @@ const Navbar = () => {
             to="/"
             onClick={handleNav}
             href="#main"
-            className="hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className={navBarLinkStyle}
           >
             <span>Home</span>
           </Link>
@@ -28,37 +31,19 @@ const Navbar = () => {
             to="/bio"
             onClick={handleNav}
             href="#bio"
-            className="hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
+            className={navBarLinkStyle}
           >
             <span>Bio</span>
           </Link>
-          <a
-            onClick={handleNav}
-            href="#videos"
-            className="hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
-          >
+          <a onClick={handleNav} href="#videos" className={navBarLinkStyle}>
             <span>Videos</span>
           </a>
-          <a
-            onClick={handleNav}
-            href="#streaming"
-            className="hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
-          >
+          <a onClick={handleNav} href="#streaming" className={navBarLinkStyle}>
             <span>Resume</span>
           </a>
-          <a
-            onClick={handleNav}
-            href="#extra"
-            className="hidden md:w-[40%] lg:w-[30%] xl:w-[25%] md:flex justify-center items-center rounded-full shadow-md bg-black/60 shadow-slate-600 hover:bg-slate-600 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
-          >
+          <a onClick={handleNav} href="#extra" className={navBarLinkStyle}>
             <span>Lil Extra Sumthin</span>
           </a>
-          {/* <div className="md:hidden">
-            <img src={facebook} alt="facebook" className="icons my-2" />
-            <img src={instagram} alt="facebook" className="icons my-2" />
-            <img src={youtube} alt="facebook" className="icons my-2" />
-            <img src={spotify} alt="facebook" className="icons my-2" />
-          </div> */}
         </div>
       ) : (
         ''
