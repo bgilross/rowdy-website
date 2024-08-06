@@ -1,19 +1,9 @@
 import React from 'react'
-// import Background from "./Background";
-// import facebook from '../images/facebook2.png'
-// import instagram from '../images/instagram2.png'
-// import youtube from '../images/youtube2.png'
-// import spotify from '../images/spotify2.png'
-
-// import facebook2 from '../images/facebook.svg'
-// import instagram2 from '../images/instagram.svg'
-// import spotify2 from '../images/spotify.svg'
-// import youtube2 from '../images/youtube.svg'
 import Social from './Social'
 
 const Hero = () => {
   return (
-    <div className="flex flex-col h-screen w-full items-center justify-center md:justify-between bg-black ">
+    <div className="flex flex-col bg-contain bg-center bg-no-repeat h-screen w-full items-center justify-center md:justify-between bg-black ">
       <div className="flex text-white md:text-white/80 text-[4rem] sm:text-[6rem] md:text-[8rem] font-carnivale">
         <h1 className="rowdy">R</h1>
         <h1 className="rowdy">O</h1>
