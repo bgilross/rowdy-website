@@ -13,7 +13,7 @@ import Social from './Social'
 
 const Hero = () => {
   return (
-    <div className="flex flex-col bg-contain bg-center bg-no-repeat h-screen w-full items-center justify-center md:justify-between bg-black ">
+    <div className="flex flex-col h-screen w-full items-center justify-center md:justify-between bg-black ">
       <div className="flex text-white md:text-white/80 text-[4rem] sm:text-[6rem] md:text-[8rem] font-carnivale">
         <h1 className="rowdy">R</h1>
         <h1 className="rowdy">O</h1>
