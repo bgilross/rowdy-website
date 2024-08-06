@@ -7,12 +7,12 @@ body {
 }
 
 @font-face {
-  font-family: "BroncoPersonalUse";
+  font-family: 'BroncoPersonalUse';
   src: url(./Fonts/BroncoPersonalUse.ttf);
 }
 
 @font-face {
-  font-family: "CarnivaleeFreakshow";
+  font-family: 'CarnivaleeFreakshow';
   src: url(./Fonts/CarnivaleeFreakshow-DLrm.ttf);
 }
 
@@ -35,7 +35,7 @@ body {
   }
 
   .icons {
-    @apply w-24 h-24 mx-2 md:mx-4 md:hover:scale-125 hover:scale-110 ease-in duration-200 cursor-pointer;
+    @apply w-12 h-12 md:w-24 md:h-24 mx-2 md:mx-4 md:hover:scale-125 hover:scale-110 ease-in duration-200 cursor-pointer;
   }
 
   .artist {
